@@ -16,12 +16,11 @@ struct Person{
 //3. Define an input (>>) and an output (<<) operator for Person;
 // read in a Person from the keyboard (cin) and write it out to the screen (cout).
 
-//Person operator>>(Person& name,Person& age){
-	//cin>>name>>age;
-	//string name_and_age=name+" "+string(age);
-	//return Person(Goofy,63);
+ostream& operator<<(ostream& os, Person p){
+	return os << p.name << " " << p.age;
 
-//}
+
+}
 //Person operator<<(Person& p){
 //
 //	cout<<name<<" "<<age;
@@ -40,7 +39,11 @@ int main(){
 	p.name = "Goofy";
 	p.age = 63;
 
-	std::cout << p.name << " " << p.age << "\n";
+	//cout << p.name << " " << p.age << "\n";
+
+	//cout << p;
+	cout << endl;
+	//cout << p;
 
 //	cin>>p2;
 //	cout<<p2;

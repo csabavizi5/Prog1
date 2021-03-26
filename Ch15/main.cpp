@@ -7,7 +7,7 @@
 double one(double x){return 1;}
 double slope(double x){return x/2;}
 double square(double x){ return x*x;}
-double sloping_cos(double x){return (x)+cos(x);}
+double sloping_cos(double x){return (x/2)+cos(x);}
 
 int main(){
 
