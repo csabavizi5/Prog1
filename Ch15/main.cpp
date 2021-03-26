@@ -26,29 +26,7 @@ int main(){
 	Axis y {Axis::y, Point{x_orig,500},ylength,ylength/yscale, "1 == 20 pixels"};
 	x.set_color(Color::red);
 	y.set_color(Color::red);
-/*
-	In the following, use a separate Shape for each function to be graphed:
 
-1. Graph the function double one(double x) { return 1; } in the range [–10,11] with (0,0)
-	 at (300,300) using 400 points and no scaling (in the window).
-
-2. Change it to use x scale 20 and y scale 20.
-
-3. From now on use that range, scale, etc. for all graphs.
-
-4. Add double slope(double x) { return x/2; } to the window.
-
-5. Label the slope with a Text "x/2" at a point just above its bottom left end point.
-
-6. Add double square(double x) { return x*x; } to the window.
-
-7. Add a cosine to the window (don’t write a new function).
-
-8. Make the cosine blue.
-
-9. Write a function sloping_cos() that adds a cosine to slope() (as defined above)
- and add it to the window.
-*/
 	
 	double interval_min = -10;
 	double interval_max = 11;
