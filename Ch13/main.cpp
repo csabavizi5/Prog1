@@ -43,18 +43,7 @@ int main(){
 		win.attach(images[images.size()-1]);
 	}
 
-/*
-		Image img201 {Point{0,200}, "200.jpg"};
-		win.attach(img201);
-		
-		Image img202 {Point{200,400}, "200.jpg"};
-		win.attach(img202);
 
-		Image img203 {Point{400,600}, "200.jpg"};
-		win.attach(img203);
-*/
-	
-	
 	for(int i=0; i<8; i++){
 		for(int j=0; j<8; j++){
 			Image img100 {Point{j*100,i*100}, "pic.jpg"};
