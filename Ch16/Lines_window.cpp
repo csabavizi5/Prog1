@@ -1,6 +1,5 @@
 
 #include "Lines_window.h"
-using namespace Graph_lib;
 
 Lines_window::Lines_window(Point xy, int w, int h, const string& title)
 	:Window{xy,w,h,title},
