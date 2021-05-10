@@ -57,7 +57,7 @@ int main()
 	std::list<int> lst2 = lst;
 
 
-	//ujtarolok kiirasa
+	//uj tarolok kiirasa
 	std::cout << std::endl << "array2: \n";
 	for(int i= 0; i<10; ++i)
 		std::cout << array2[i] << '\t';
