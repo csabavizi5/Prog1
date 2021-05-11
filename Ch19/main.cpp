@@ -60,33 +60,5 @@ int main()
 
 
 
-
-
-
-/*
-	si = read_val(si.get());
-	std::cout << si.get() << std::endl;
-
-	
-
-	
-/*
-	S<double> sd(3.14);
-	read_val(sd.get());
-	std::cout << sd.get() << std::endl;
-
-	std::string s;
-	read_val(s);
-	std::cout << s << std::endl;
-	//std::cout << si.get() << std::endl;
-*/
-
-	//std::cout << "Az int: \t" << si.val << std::endl;
-	//S<char> sc();
-	
-	//std::cout << sd.get() << std::endl;
-
-	//S<std::string> ss {"Eszti"};
-	//S<std::vector<int>> svi {1, 2, 3, 4};
 	return 0;
 }
